@@ -5,9 +5,9 @@ import * as cuid from 'cuid';
 export class SongsService {
 
     private songs: SongListItem[] = [
-        { id: '1', title: 'Like a Prayer', artist: 'Madonna', album: 'Alive 2' },
-        { id: '2', title: 'Planet Rock', artist: 'Afrika Bambaata', album: 'Planet Rock Live' },
-        { id: '3', title: 'Don\'t Believe the Hype', artist: 'Public Enemy', album: 'Fear of a Black Planet' }
+        { id: cuid(), title: 'Like a Prayer', artist: 'Madonna', album: 'Alive 2' },
+        { id: cuid(), title: 'Planet Rock', artist: 'Afrika Bambaata', album: 'Planet Rock Live' },
+        { id: cuid(), title: 'Don\'t Believe the Hype', artist: 'Public Enemy', album: 'Fear of a Black Planet' }
     ];
 
 
